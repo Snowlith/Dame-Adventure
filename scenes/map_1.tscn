@@ -1,17 +1,19 @@
-[gd_scene load_steps=3 format=3 uid="uid://kn5pgsp3htcp"]
+[gd_scene load_steps=4 format=3 uid="uid://kn5pgsp3htcp"]
 
 [ext_resource type="PackedScene" uid="uid://diwq7bewxdnya" path="res://tiled/tmx/map_1.tmx" id="1_7uywq"]
+[ext_resource type="Texture2D" uid="uid://dck5w7ona4vvm" path="res://sprites/player/dame_animation.png" id="2_8wnwl"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_xgvco"]
 
 [node name="map_1" instance=ExtResource("1_7uywq")]
 
-[node name="Terrain 1" parent="Layer 1" index="0"]
-collision_visibility_mode = 1
-
 [node name="Player" type="CharacterBody2D" parent="." index="3"]
-position = Vector2(73, -40)
+position = Vector2(232, 145)
+metadata/_edit_group_ = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Player" index="0"]
-position = Vector2(153, 82)
 shape = SubResource("CapsuleShape2D_xgvco")
+
+[node name="Sprite2D" type="Sprite2D" parent="Player" index="1"]
+position = Vector2(73, 101)
+texture = ExtResource("2_8wnwl")
