@@ -1,9 +1,9 @@
 [gd_scene load_steps=4 format=3]
 
-[ext_resource type="Texture2D" uid="uid://cgx7wyuekjx6w" path="res://sprites/terrain.png" id="1_xbe6k"]
+[ext_resource type="Texture2D" uid="uid://cgx7wyuekjx6w" path="res://sprites/terrain.png" id="1_i5rch"]
 
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_6w0b0"]
-texture = ExtResource("1_xbe6k")
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_cqe78"]
+texture = ExtResource("1_i5rch")
 0:0/0 = 0
 0:0/0/terrain_set = 0
 0:0/0/terrain = 0
@@ -363,7 +363,7 @@ texture = ExtResource("1_xbe6k")
 2:3/0/physics_layer_1/linear_velocity = Vector2(0, 0)
 2:3/0/physics_layer_1/angular_velocity = 0.0
 
-[sub_resource type="TileSet" id="TileSet_xf2ji"]
+[sub_resource type="TileSet" id="TileSet_a08q8"]
 physics_layer_0/collision_layer = 1
 physics_layer_1/collision_layer = 1
 terrain_set_0/mode = 0
@@ -381,7 +381,7 @@ terrain_set_0/terrain_5/name = "[DO NOT USE] Stair Connector  ˄"
 terrain_set_0/terrain_5/color = Color(0, 0, 0.262745, 1)
 terrain_set_0/terrain_6/name = "[DO NOT USE] Stair Connector  ˂"
 terrain_set_0/terrain_6/color = Color(0.207843, 0.207843, 0, 1)
-sources/0 = SubResource("TileSetAtlasSource_6w0b0")
+sources/0 = SubResource("TileSetAtlasSource_cqe78")
 
 [node name="cliff_rules_1" type="Node2D"]
 metadata/AutomappingRadius = 2
@@ -391,12 +391,12 @@ metadata/MatchInOrder = true
 [node name="input_Terrain 1" type="TileMap" parent="."]
 modulate = Color(1, 1, 1, 0.36)
 texture_filter = 1
-tile_set = SubResource("TileSet_xf2ji")
+tile_set = SubResource("TileSet_a08q8")
 format = 2
 layer_0/tile_data = PackedInt32Array(65537, 0, 3, 65539, 65536, 3, 65541, 131072, 3, 327681, 0, 2, 327683, 65536, 2, 327685, 131072, 2, 524289, 0, 2, 524291, 65536, 2, 524293, 131072, 2, 589825, 0, 0, 589827, 0, 0, 589829, 0, 0, 720897, 0, 2, 720899, 65536, 2, 720901, 131072, 2, 786433, 131072, 0, 786435, 131072, 0, 786437, 131072, 0)
 
 [node name="output_Terrain 1" type="TileMap" parent="."]
 texture_filter = 1
-tile_set = SubResource("TileSet_xf2ji")
+tile_set = SubResource("TileSet_a08q8")
 format = 2
 layer_0/tile_data = PackedInt32Array(393217, 0, 3, 393219, 65536, 3, 393221, 131072, 3, 589825, 196608, 2, 589827, 262144, 2, 589829, 327680, 2, 786433, 196608, 3, 786435, 262144, 3, 786437, 327680, 3)
