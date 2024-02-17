@@ -1,19 +1,29 @@
-[gd_scene load_steps=4 format=3 uid="uid://kn5pgsp3htcp"]
+[gd_scene load_steps=5 format=3 uid="uid://kn5pgsp3htcp"]
 
 [ext_resource type="PackedScene" uid="uid://diwq7bewxdnya" path="res://tiled/tmx/map_1.tmx" id="1_7uywq"]
 [ext_resource type="Texture2D" uid="uid://dck5w7ona4vvm" path="res://sprites/player/dame_animation.png" id="2_8wnwl"]
+[ext_resource type="Script" path="res://scripts/Player.gd" id="2_jxknu"]
 
-[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_xgvco"]
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_yvd1o"]
+radius = 4.0
+height = 14.0
 
 [node name="map_1" instance=ExtResource("1_7uywq")]
 
 [node name="Player" type="CharacterBody2D" parent="." index="3"]
-position = Vector2(232, 145)
-metadata/_edit_group_ = true
+position = Vector2(232, 174)
+script = ExtResource("2_jxknu")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Player" index="0"]
-shape = SubResource("CapsuleShape2D_xgvco")
+rotation = 1.5708
+shape = SubResource("CapsuleShape2D_yvd1o")
 
 [node name="Sprite2D" type="Sprite2D" parent="Player" index="1"]
-position = Vector2(73, 101)
+position = Vector2(0, -13)
 texture = ExtResource("2_8wnwl")
+hframes = 5
+vframes = 2
+
+[node name="Camera2D" type="Camera2D" parent="Player" index="2"]
+position = Vector2(14, -10)
+zoom = Vector2(4, 4)
