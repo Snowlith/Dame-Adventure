@@ -3,6 +3,8 @@
 [ext_resource type="PackedScene" uid="uid://diwq7bewxdnya" path="res://tiled/tmx/map_1.tmx" id="1_7uywq"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_xgvco"]
+radius = 13.0
+height = 32.0
 
 [node name="map_1" instance=ExtResource("1_7uywq")]
 
