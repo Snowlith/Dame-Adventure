@@ -1,0 +1,24 @@
+{
+    "automappingRulesFile": "rules.txt.txt",
+    "commands": [
+        {
+            "arguments": "",
+            "command": "C:/Users/vilmt/Tiled/dame_project/extensions/find-layer-by-id.js",
+            "enabled": true,
+            "name": "find layer by id",
+            "saveBeforeExecute": true,
+            "shortcut": null,
+            "showOutput": true,
+            "workingDirectory": ""
+        }
+    ],
+    "compatibilityVersion": 1100,
+    "extensionsPath": "extensions",
+    "folders": [
+        "."
+    ],
+    "properties": [
+    ],
+    "propertyTypes": [
+    ]
+}

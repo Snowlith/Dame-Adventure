@@ -1,3 +1,5 @@
-res://scripts
-res://scenes
 res://tiled
+res://tiled/tmx
+res://scripts
+res://sprites/player
+res://scenes

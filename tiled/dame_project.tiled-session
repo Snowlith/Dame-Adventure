@@ -1,0 +1,267 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "C:/Users/vilmt/PycharmProjects/dame_adventure 1/maps/map_1.tmx",
+    "automapping.whileDrawing": false,
+    "expandedProjectPaths": [
+        "tsx",
+        "rules",
+        ".",
+        "tx"
+    ],
+    "file.lastUsedOpenFilter": "All Files (*)",
+    "fileStates": {
+        ":/automap-tiles.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 4
+        },
+        "C:/Users/vilmt/Desktop/blob/rule.tmx": {
+            "scale": 0.4933779761904762,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 1312.3812396320313,
+                "y": 672.9120796259991
+            }
+        },
+        "C:/Users/vilmt/Desktop/blob/rule.tmx#set": {
+            "scaleInDock": 1
+        },
+        "C:/Users/vilmt/Desktop/blob/rule.tmx#terrain": {
+            "scaleInDock": 1
+        },
+        "C:/Users/vilmt/PycharmProjects/dame_adventure 1/maps/map_1.tmx": {
+            "expandedGroupLayers": [
+                7,
+                18,
+                21,
+                8,
+                19
+            ],
+            "scale": 1,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 540,
+                "y": 278
+            }
+        },
+        "C:/Users/vilmt/Tiled/dame_project/tsx/Detail.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/vilmt/Tiled/dame_project/tsx/Terrain.tsx": {
+            "scaleInDock": 1
+        },
+        "Rules/autotile_rules.tmx": {
+            "scale": 2,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 118.25,
+                "y": 140.75
+            }
+        },
+        "Rules/autotiling.tmx": {
+            "scale": 1.2340104166666668,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 480.1418140379014,
+                "y": 319.2841767610686
+            }
+        },
+        "rules/autotile_rules.tmx": {
+            "scale": 1.9296875,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 240.19433198380568,
+                "y": 160.3886639676113
+            }
+        },
+        "rules/cliff_prerules_1.tmx": {
+            "scale": 3,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 114.83333333333331,
+                "y": 108
+            }
+        },
+        "rules/cliff_rules.tmx": {
+            "scale": 1.5,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 122,
+                "y": 107.66666666666669
+            }
+        },
+        "rules/cliff_rules_1.tmx": {
+            "scale": 1.5,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 251.99999999999994,
+                "y": 181.33333333333334
+            }
+        },
+        "rules/cliff_rules_2.tmx": {
+            "scale": 1,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 40,
+                "y": 257
+            }
+        },
+        "rules/prototype_rules.tmx": {
+            "scale": 1.5,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 314.99999999999994,
+                "y": 171.33333333333334
+            }
+        },
+        "rules/prototype_rules_0.tmx": {
+            "scale": 1.5,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 316.99999999999994,
+                "y": 192
+            }
+        },
+        "rules/prototype_rules_1.tmx": {
+            "scale": 1.5,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 313.66666666666663,
+                "y": 229.99999999999997
+            }
+        },
+        "rules/prototype_rules_2.tmx": {
+            "scale": 1.5,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 278.99999999999994,
+                "y": 183.33333333333331
+            }
+        },
+        "rules/prototype_rules_3.tmx": {
+            "scale": 1.5,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 312.99999999999994,
+                "y": 186.66666666666669
+            }
+        },
+        "tmx/dame_map.tmx": {
+            "expandedGroupLayers": [
+                7,
+                21,
+                8
+            ],
+            "scale": 1.5,
+            "selectedLayer": 6,
+            "viewCenter": {
+                "x": 294.66666666666663,
+                "y": 186
+            }
+        },
+        "tsx/Cliff.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1,
+            "scaleInEditor": 8
+        },
+        "tsx/Detail.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 4
+        },
+        "tsx/Dirt.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 4
+        },
+        "tsx/Grass.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 8
+        },
+        "tsx/Rock.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 5.5
+        },
+        "tsx/Sand.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 8
+        },
+        "tsx/Stairs.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1,
+            "scaleInEditor": 4
+        },
+        "tsx/Terrain.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 3
+        },
+        "tsx/TerrainOld.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "tsx/Terrain_Tall.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 4
+        },
+        "tsx/dame_dirt.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1,
+            "scaleInEditor": 5.5
+        },
+        "tsx/dirt_2.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1,
+            "scaleInEditor": 5.5
+        },
+        "tsx/prototype.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 3
+        },
+        "tsx/prototype_flat.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 5.5
+        }
+    },
+    "last.executablePath": "C:/Users/vilmt/Tiled/dame_project/extensions/find-layer-by-id.js",
+    "last.exportedFilePath": "C:/Users/vilmt/PycharmProjects/tiled_importing_3/maps",
+    "last.externalTilesetPath": "C:/Users/vilmt/Tiled/dame_project/tsx",
+    "last.imagePath": "C:/Users/vilmt/Godot/Game1/Dame-Adventure/sprites",
+    "last.objectTemplatePath": "C:/Users/vilmt/Tiled/dame_project/tx",
+    "map.lastUsedExportFilter": "Tiled map files (*.tmx *.xml)",
+    "map.lastUsedFormat": "tmx",
+    "map.tileHeight": 16,
+    "map.tileWidth": 16,
+    "openFiles": [
+        "C:/Users/vilmt/PycharmProjects/dame_adventure 1/maps/map_1.tmx",
+        "tsx/Detail.tsx",
+        "tsx/Terrain.tsx"
+    ],
+    "project": "dame_project.tiled-project",
+    "property.type": "string",
+    "recentFiles": [
+        "tmx/dame_map.tmx",
+        "tsx/Terrain.tsx",
+        "tsx/Detail.tsx",
+        "C:/Users/vilmt/PycharmProjects/dame_adventure 1/maps/map_1.tmx",
+        "tsx/Terrain_Tall.tsx",
+        "tsx/TerrainOld.tsx",
+        "rules/cliff_rules_1.tmx",
+        "rules/cliff_rules_2.tmx",
+        "tsx/Stairs.tsx",
+        "rules/cliff_prerules_1.tmx",
+        "tsx/Cliff.tsx",
+        "tsx/Dirt.tsx"
+    ],
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.tileSize": {
+        "height": 32,
+        "width": 16
+    }
+}

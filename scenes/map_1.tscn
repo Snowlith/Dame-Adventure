@@ -1,6 +1,6 @@
 [gd_scene load_steps=5 format=3 uid="uid://kn5pgsp3htcp"]
 
-[ext_resource type="PackedScene" uid="uid://diwq7bewxdnya" path="res://tiled/tmx/map_1.tmx" id="1_7uywq"]
+[ext_resource type="PackedScene" uid="uid://c0w7flnx4jcmy" path="res://tiled/tmx/dame_map.tmx" id="1_7uywq"]
 [ext_resource type="Texture2D" uid="uid://dck5w7ona4vvm" path="res://sprites/player/dame_animation.png" id="2_8wnwl"]
 [ext_resource type="Script" path="res://scripts/Player.gd" id="2_jxknu"]
 
@@ -9,6 +9,9 @@ radius = 4.0
 height = 14.0
 
 [node name="map_1" instance=ExtResource("1_7uywq")]
+
+[node name="Terrain_1" parent="Layer 1" index="0"]
+collision_visibility_mode = 1
 
 [node name="Player" type="CharacterBody2D" parent="." index="3"]
 position = Vector2(232, 174)
