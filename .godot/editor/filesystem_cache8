@@ -24,8 +24,8 @@ shadow.png::CompressedTexture2D::6481794399093262527::1707189092::1708145667::1:
 terrain.png::CompressedTexture2D::8099718250269749138::1708146519::1708146523::1::::<><>::
 ::res://sprites/player/::1708137317
 dame_animation.png::CompressedTexture2D::7322146016111159090::1708137299::1708137317::1::::<><>::
-::res://tiled/::1708146546
+::res://tiled/::1708152774
 ::res://tiled/extensions/::1707968524
-::res://tiled/tmx/::1708146954
-dame_map.tmx::PackedScene::6574931240587812080::1708146954::1708146957::1::::<><>::uid://dnntf8xkekkcw::::res://sprites/terrain.png<>uid://dygass5ant4n4::::res://sprites/detail.png
+::res://tiled/tmx/::1708152774
+dame_map.tmx::PackedScene::6574931240587812080::1708152774::1708152775::1::::<><>::uid://dnntf8xkekkcw::::res://sprites/terrain.png<>uid://dygass5ant4n4::::res://sprites/detail.png
 ::res://tiled/tsx/::1708145623

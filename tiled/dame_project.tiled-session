@@ -6,12 +6,12 @@
     "activeFile": "tmx/dame_map.tmx",
     "automapping.whileDrawing": false,
     "expandedProjectPaths": [
+        "tx",
         "tsx",
         "extensions",
-        "tmx",
         "rules",
         ".",
-        "tx"
+        "tmx"
     ],
     "file.lastUsedOpenFilter": "All Files (*)",
     "fileStates": {
@@ -152,17 +152,17 @@
         },
         "tmx/dame_map.tmx": {
             "expandedGroupLayers": [
-                7,
                 18,
+                19,
                 21,
                 8,
-                19
+                7
             ],
-            "scale": 2,
+            "scale": 5.5,
             "selectedLayer": 3,
             "viewCenter": {
-                "x": 207.5,
-                "y": 152.5
+                "x": 372.1818181818182,
+                "y": 65.0909090909091
             }
         },
         "tsx/Cliff.tsx": {
