@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="28" height="18" tilewidth="16" tileheight="16" infinite="0" nextlayerid="25" nextobjectid="1">
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="28" height="18" tilewidth="16" tileheight="16" infinite="0" nextlayerid="27" nextobjectid="32">
  <editorsettings>
   <export format="tmx"/>
  </editorsettings>
  <tileset firstgid="1" source="../tsx/Terrain.tsx"/>
  <tileset firstgid="100" source="../tsx/Detail.tsx"/>
  <group id="18" name="Layer 0">
-  <layer id="14" name="Terrain_0" width="28" height="18" offsetx="0" offsety="16">
+  <layer id="14" name="Terrain 0" width="28" height="18" offsetx="0" offsety="16">
    <properties>
     <property name="z" type="int" value="0"/>
    </properties>
@@ -31,7 +31,7 @@
 13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13
 </data>
   </layer>
-  <layer id="17" name="Detail_0" width="28" height="18">
+  <layer id="17" name="Detail 0" width="28" height="18">
    <properties>
     <property name="z" type="int" value="0"/>
    </properties>
@@ -58,7 +58,7 @@
   </layer>
  </group>
  <group id="19" name="Layer 1">
-  <layer id="15" name="Terrain_1" width="28" height="18" offsetx="0" offsety="16">
+  <layer id="15" name="Terrain 1" width="28" height="18" offsetx="0" offsety="16">
    <properties>
     <property name="z" type="int" value="1"/>
    </properties>
@@ -69,13 +69,13 @@
 13,13,13,13,13,4,24,25,0,0,0,0,0,0,0,23,24,24,25,0,0,0,0,37,34,13,13,13,
 13,13,4,45,45,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,3,36,34,13,13,13,
 13,13,14,47,49,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12,13,15,2,16,13,13,13,
-13,13,14,0,0,0,0,1,2,2,2,3,0,0,0,0,0,0,0,1,16,13,13,13,13,13,13,13,
-13,13,14,0,0,0,38,34,13,13,13,15,2,2,3,0,0,0,0,23,45,45,5,13,13,13,13,13,
+13,13,14,0,0,0,0,1,2,2,2,2,2,3,0,0,0,0,0,1,16,13,13,13,13,13,13,13,
+13,13,14,0,0,0,38,34,13,13,13,13,13,15,3,0,0,0,0,23,45,45,5,13,13,13,13,13,
 13,13,14,0,0,0,36,34,13,13,13,13,13,13,14,0,0,0,0,0,47,49,23,5,13,13,13,13,
 13,13,14,0,0,0,0,12,13,13,13,13,13,13,15,2,3,0,0,0,0,0,0,12,13,13,13,13,
 13,13,14,0,0,0,0,12,13,13,13,13,13,13,13,13,14,0,0,0,0,0,0,23,5,13,13,13,
-13,13,15,3,0,0,0,23,24,24,24,24,5,13,13,13,14,0,0,0,0,0,0,0,23,24,5,13,
-13,13,13,14,0,0,0,0,0,0,0,0,23,45,45,24,25,0,0,0,0,0,0,0,0,0,12,13,
+13,13,15,3,0,0,0,23,5,13,13,13,13,13,13,13,14,0,0,0,0,0,0,0,23,24,5,13,
+13,13,13,14,0,0,0,0,23,24,24,24,24,45,45,24,25,0,0,0,0,0,0,0,0,0,12,13,
 13,13,13,15,3,0,0,0,0,0,0,0,0,47,49,0,0,0,0,0,0,0,0,0,0,0,12,13,
 13,13,13,13,15,2,2,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12,13,
 13,13,13,13,13,13,13,15,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,16,13,
@@ -83,7 +83,7 @@
 13,13,13,13,13,13,13,13,13,14,0,0,0,0,0,0,0,0,0,12,13,13,13,13,13,13,13,13
 </data>
   </layer>
-  <layer id="20" name="Detail_1" width="28" height="18">
+  <layer id="20" name="Detail 1" width="28" height="18">
    <properties>
     <property name="z" type="int" value="1"/>
    </properties>
@@ -110,7 +110,7 @@
   </layer>
  </group>
  <group id="21" name="Layer 2">
-  <layer id="22" name="Terrain_2" width="28" height="18" offsetx="0" offsety="16">
+  <layer id="22" name="Terrain 2" width="28" height="18" offsetx="0" offsety="16">
    <properties>
     <property name="z" type="int" value="2"/>
    </properties>
@@ -122,9 +122,9 @@
 25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,16,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12,13,13,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,16,13,13,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,23,45,45,5,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,47,49,23,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,1,2,2,2,3,0,0,0,0,0,0,0,0,0,0,23,45,45,5,
+0,0,0,0,0,0,0,0,0,23,24,5,13,14,0,0,0,0,0,0,0,0,0,0,0,47,49,23,
+0,0,0,0,0,0,0,0,0,0,0,23,24,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -135,7 +135,7 @@
 13,13,13,13,15,2,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
   </layer>
-  <layer id="23" name="Detail_2" width="28" height="18">
+  <layer id="23" name="Detail 2" width="28" height="18">
    <properties>
     <property name="z" type="int" value="2"/>
    </properties>
@@ -161,4 +161,9 @@
 </data>
   </layer>
  </group>
+ <objectgroup color="#00aa00" id="26" name="Areas">
+  <object id="25" template="../templates/stair_trigger_up.tx" x="51.25" y="78.125"/>
+  <object id="30" template="../templates/stair_trigger_up.tx" x="211.5" y="206.125"/>
+  <object id="31" template="../templates/stair_trigger_up.tx" x="323.333" y="126.833"/>
+ </objectgroup>
 </map>

@@ -19,5 +19,5 @@ add_id_as_metadata=false
 no_alternative_tiles=false
 map_wangset_to_terrain=false
 tiled_project_file="res://tiled/dame_project.tiled-project"
-post_processor=""
+post_processor="res://scripts/tiled_post_processing.gd"
 save_tileset_to=""

@@ -6,12 +6,13 @@
     "activeFile": "tmx/dame_map.tmx",
     "automapping.whileDrawing": false,
     "expandedProjectPaths": [
-        "tx",
+        "templates",
+        "tmx",
         "tsx",
         "extensions",
         "rules",
         ".",
-        "tmx"
+        "tx"
     ],
     "file.lastUsedOpenFilter": "All Files (*)",
     "fileStates": {
@@ -152,17 +153,14 @@
         },
         "tmx/dame_map.tmx": {
             "expandedGroupLayers": [
-                18,
-                19,
-                21,
-                8,
-                7
+                7,
+                8
             ],
-            "scale": 5.5,
-            "selectedLayer": 3,
+            "scale": 2,
+            "selectedLayer": 9,
             "viewCenter": {
-                "x": 372.1818181818182,
-                "y": 65.0909090909091
+                "x": 223,
+                "y": 162
             }
         },
         "tsx/Cliff.tsx": {
@@ -237,7 +235,7 @@
     "last.exportedFilePath": "C:/Users/vilmt/PycharmProjects/tiled_importing_3/maps",
     "last.externalTilesetPath": "C:/Users/vilmt/Tiled/dame_project/tsx",
     "last.imagePath": "C:/Users/vilmt/Godot/Game1/Dame-Adventure/sprites",
-    "last.objectTemplatePath": "C:/Users/vilmt/Tiled/dame_project/tx",
+    "last.objectTemplatePath": "C:/Users/vilmt/Godot/Game1/Dame-Adventure/tiled/templates",
     "map.lastUsedExportFilter": "Tiled map files (*.tmx *.xml)",
     "map.lastUsedFormat": "tmx",
     "map.tileHeight": 16,
@@ -248,7 +246,7 @@
         "tsx/Terrain.tsx"
     ],
     "project": "dame_project.tiled-project",
-    "property.type": "string",
+    "property.type": "file",
     "recentFiles": [
         "tsx/Terrain.tsx",
         "tsx/Detail.tsx",

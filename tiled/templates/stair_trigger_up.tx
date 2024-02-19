@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template>
+ <object type="area" width="25.125" height="33.3636">
+  <properties>
+   <property name="godot_script" type="file" value="res://scripts/stair_trigger_up.gd"/>
+  </properties>
+ </object>
+</template>

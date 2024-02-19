@@ -1,34 +1,105 @@
-[gd_scene load_steps=5 format=3 uid="uid://kn5pgsp3htcp"]
+[gd_scene load_steps=8 format=3 uid="uid://kn5pgsp3htcp"]
 
 [ext_resource type="PackedScene" uid="uid://c0w7flnx4jcmy" path="res://tiled/tmx/dame_map.tmx" id="1_7uywq"]
 [ext_resource type="Texture2D" uid="uid://dck5w7ona4vvm" path="res://sprites/player/dame_animation.png" id="2_8wnwl"]
 [ext_resource type="Script" path="res://scripts/Player.gd" id="2_jxknu"]
+[ext_resource type="Script" path="res://scripts/stair_trigger_up.gd" id="4_jwdvl"]
 
-[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_yvd1o"]
-radius = 4.0
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_ect17"]
+radius = 3.5
 height = 14.0
 
-[node name="map_1" instance=ExtResource("1_7uywq")]
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_m1sen"]
+radius = 8.0
+height = 18.0
 
-[node name="Terrain_1" parent="Layer 1" index="0"]
+[sub_resource type="CircleShape2D" id="CircleShape2D_47eo3"]
+radius = 19.0263
+
+[node name="map_1" instance=ExtResource("1_7uywq")]
+y_sort_enabled = true
+
+[node name="Layer 0" parent="." index="0"]
+y_sort_enabled = true
+
+[node name="Terrain 0" parent="Layer 0" index="0"]
+y_sort_enabled = true
+layer_0/y_sort_enabled = true
+
+[node name="Detail 0" parent="Layer 0" index="1"]
+y_sort_enabled = true
+layer_0/y_sort_enabled = true
+layer_0/y_sort_origin = 16
+
+[node name="Layer 1" parent="." index="1"]
+z_index = 1
+y_sort_enabled = true
+
+[node name="Terrain 1" parent="Layer 1" index="0"]
+y_sort_enabled = true
 collision_visibility_mode = 1
+layer_0/y_sort_enabled = true
+
+[node name="Detail 1" parent="Layer 1" index="1"]
+y_sort_enabled = true
+layer_0/y_sort_enabled = true
+layer_0/y_sort_origin = 16
+
+[node name="Layer 2" parent="." index="2"]
+z_index = 2
+y_sort_enabled = true
+
+[node name="Terrain 2" parent="Layer 2" index="0"]
+y_sort_enabled = true
+layer_0/y_sort_enabled = true
+
+[node name="Detail 2" parent="Layer 2" index="1"]
+y_sort_enabled = true
+layer_0/y_sort_enabled = true
+layer_0/y_sort_origin = 16
 
 [node name="Player" type="CharacterBody2D" parent="." index="3"]
-position = Vector2(263, 137)
+z_index = 1
+y_sort_enabled = true
+position = Vector2(307, 142)
+motion_mode = 1
 script = ExtResource("2_jxknu")
-metadata/_edit_group_ = true
+speed = 90
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Player" index="0"]
-position = Vector2(0, -1)
 rotation = 1.5708
-shape = SubResource("CapsuleShape2D_yvd1o")
+shape = SubResource("CapsuleShape2D_ect17")
+debug_color = Color(0.584314, 0.380392, 1, 0.419608)
 
 [node name="Sprite2D" type="Sprite2D" parent="Player" index="1"]
-position = Vector2(0, -13)
 texture = ExtResource("2_8wnwl")
+offset = Vector2(0, -14)
 hframes = 5
 vframes = 2
 
 [node name="Camera2D" type="Camera2D" parent="Player" index="2"]
 position = Vector2(14, -10)
 zoom = Vector2(4, 4)
+
+[node name="Fucker" type="RigidBody2D" parent="." index="4"]
+position = Vector2(307, 194)
+mass = 0.01
+metadata/_edit_group_ = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Fucker" index="0"]
+shape = SubResource("CapsuleShape2D_m1sen")
+
+[node name="Area" parent="Areas" index="0"]
+z_index = 2
+
+[node name="Rectangle Shape" parent="Areas/Area" index="0"]
+z_index = 2
+
+[node name="Shitty area" type="Area2D" parent="." index="6"]
+z_index = 1
+position = Vector2(246, 315)
+script = ExtResource("4_jwdvl")
+metadata/_edit_group_ = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Shitty area" index="0"]
+shape = SubResource("CircleShape2D_47eo3")

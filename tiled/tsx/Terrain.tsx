@@ -80,6 +80,11 @@
   </objectgroup>
  </tile>
  <tile id="22">
+  <properties>
+   <property name="fucks_given" type="int" value="0"/>
+   <property name="script" value="Player.gd"/>
+   <property name="y_sort_origin" type="int" value="-8"/>
+  </properties>
   <objectgroup draworder="index" id="2">
    <object id="1" x="0" y="0">
     <polygon points="0,0 16,16 16,14 2,0"/>
@@ -100,6 +105,9 @@
   </objectgroup>
  </tile>
  <tile id="24">
+  <properties>
+   <property name="y_sort_origin" type="int" value="-8"/>
+  </properties>
   <objectgroup draworder="index" id="2">
    <object id="1" x="0" y="0">
     <polygon points="0,16 16,0 14,0 0,14"/>
@@ -110,16 +118,44 @@
   </objectgroup>
  </tile>
  <tile id="35">
+  <properties>
+   <property name="y_sort_origin" type="int" value="-16"/>
+  </properties>
   <objectgroup draworder="index" id="2">
    <object id="1" x="0" y="0">
     <polygon points="0,32 16,16 16,32"/>
    </object>
   </objectgroup>
  </tile>
+ <tile id="36">
+  <properties>
+   <property name="y_sort_origin" type="int" value="-16"/>
+  </properties>
+ </tile>
  <tile id="37">
+  <properties>
+   <property name="y_sort_origin" type="int" value="-8"/>
+  </properties>
   <objectgroup draworder="index" id="2">
    <object id="1" x="0" y="0">
-    <polygon points="0,15 14,0 16,0 2,15"/>
+    <polygon points="4,16 18,0 16,0 2,16"/>
+   </object>
+   <object id="2" x="0" y="0">
+    <polygon points="0,16 16,16 16,18 2,18"/>
+   </object>
+  </objectgroup>
+ </tile>
+ <tile id="46" type="Stair">
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="0" y="0">
+    <polygon points="0,-2 0,32 2,30 2,0"/>
+   </object>
+  </objectgroup>
+ </tile>
+ <tile id="48">
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="0" y="0">
+    <polygon points="14,0 14,30 16,32 16,-2"/>
    </object>
   </objectgroup>
  </tile>
