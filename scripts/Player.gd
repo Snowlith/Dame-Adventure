@@ -5,10 +5,25 @@ extends CharacterBody2D
 @export var friction = 10
 
 func _ready():
-	# holy shit this took 10 years to fucking find
-	# i was going to give up and kms until i sucked it up and finally read the documentation
-	# this thing fixes fucking everything
-	pass
+	set_collision_layer_value(z_index+1, true)
+	set_collision_mask_value(z_index+1, true)
+	
+	set_motion_mode(MOTION_MODE_FLOATING)
+	
+
+func move_z(z_mov: int):
+	# change ordering
+	z_index += z_mov
+	
+	var old_layer = z_index+1-z_mov
+	var new_layer = z_index+1
+	
+	# change collision layer
+	set_collision_layer_value(old_layer, false)
+	set_collision_mask_value(old_layer, false)
+	
+	set_collision_layer_value(new_layer, true)
+	set_collision_mask_value(new_layer, true)
 
 
 func _physics_process(delta):
@@ -29,7 +44,8 @@ func _physics_process(delta):
 		var wall_normal = get_wall_normal()
 		velocity = velocity - wall_normal * velocity.dot(wall_normal)
 	
-
-
-func _on_area_2d_body_entered(body):
-	print(body)
+	#var last_collision = get_last_slide_collision()
+	#if last_collision:
+		#var tile_rid = last_collision.get_collider_rid()
+		#var col_layer = PhysicsServer2D.body_get_collision_layer(tile_rid)
+		#print(col_layer)

@@ -4,6 +4,9 @@
  <tile id="0">
   <objectgroup draworder="index" id="3">
    <object id="2" x="0" y="0">
+    <properties>
+     <property name="physics_layer" type="int" value="1"/>
+    </properties>
     <polygon points="16,0 0,16 2,16 16,2"/>
    </object>
    <object id="3" x="0" y="0">
@@ -14,6 +17,9 @@
  <tile id="1">
   <objectgroup draworder="index" id="2">
    <object id="1" x="0" y="0">
+    <properties>
+     <property name="physics_layer" type="int" value="1"/>
+    </properties>
     <polygon points="0,0 16,0 16,2 0,2"/>
    </object>
    <object id="2" x="0" y="0">
@@ -24,6 +30,9 @@
  <tile id="2">
   <objectgroup draworder="index" id="2">
    <object id="1" x="0" y="0">
+    <properties>
+     <property name="physics_layer" type="int" value="1"/>
+    </properties>
     <polygon points="0,0 16,16 14,16 0,2"/>
    </object>
    <object id="2" x="0" y="0">
@@ -34,6 +43,9 @@
  <tile id="3">
   <objectgroup draworder="index" id="2">
    <object id="1" x="0" y="0">
+    <properties>
+     <property name="physics_layer" type="int" value="1"/>
+    </properties>
     <polygon points="14,16 16,14 16,16"/>
    </object>
   </objectgroup>
@@ -41,6 +53,9 @@
  <tile id="4">
   <objectgroup draworder="index" id="2">
    <object id="1" x="0" y="0">
+    <properties>
+     <property name="physics_layer" type="int" value="1"/>
+    </properties>
     <polygon points="0,14 0,16 2,16"/>
    </object>
   </objectgroup>
@@ -48,6 +63,9 @@
  <tile id="11">
   <objectgroup draworder="index" id="2">
    <object id="1" x="0" y="0">
+    <properties>
+     <property name="physics_layer" type="int" value="1"/>
+    </properties>
     <polygon points="0,0 0,16 2,16 2,0"/>
    </object>
    <object id="2" x="0" y="0">
@@ -58,6 +76,9 @@
  <tile id="13">
   <objectgroup draworder="index" id="2">
    <object id="1" x="0" y="0">
+    <properties>
+     <property name="physics_layer" type="int" value="1"/>
+    </properties>
     <polygon points="14,0 14,16 16,16 16,0"/>
    </object>
    <object id="2" x="0" y="0">
@@ -68,6 +89,9 @@
  <tile id="14">
   <objectgroup draworder="index" id="2">
    <object id="1" x="0" y="0">
+    <properties>
+     <property name="physics_layer" type="int" value="1"/>
+    </properties>
     <polygon points="14,0 16,0 16,2"/>
    </object>
   </objectgroup>
@@ -75,21 +99,28 @@
  <tile id="15">
   <objectgroup draworder="index" id="2">
    <object id="1" x="0" y="0">
+    <properties>
+     <property name="physics_layer" type="int" value="1"/>
+    </properties>
     <polygon points="0,0 2,0 0,2"/>
    </object>
   </objectgroup>
  </tile>
  <tile id="22">
   <properties>
-   <property name="fucks_given" type="int" value="0"/>
-   <property name="script" value="Player.gd"/>
    <property name="y_sort_origin" type="int" value="-8"/>
   </properties>
   <objectgroup draworder="index" id="2">
    <object id="1" x="0" y="0">
+    <properties>
+     <property name="physics_layer" type="int" value="1"/>
+    </properties>
     <polygon points="0,0 16,16 16,14 2,0"/>
    </object>
    <object id="2" x="0" y="0">
+    <properties>
+     <property name="physics_layer" type="int" value="0"/>
+    </properties>
     <polygon points="0,16 16,32 16,16"/>
    </object>
   </objectgroup>
@@ -97,6 +128,9 @@
  <tile id="23">
   <objectgroup draworder="index" id="2">
    <object id="1" x="0" y="0">
+    <properties>
+     <property name="physics_layer" type="int" value="1"/>
+    </properties>
     <polygon points="0,14 16,14 16,16 0,16"/>
    </object>
    <object id="2" x="0" y="0">
@@ -110,6 +144,9 @@
   </properties>
   <objectgroup draworder="index" id="2">
    <object id="1" x="0" y="0">
+    <properties>
+     <property name="physics_layer" type="int" value="1"/>
+    </properties>
     <polygon points="0,16 16,0 14,0 0,14"/>
    </object>
    <object id="2" x="0" y="0">
