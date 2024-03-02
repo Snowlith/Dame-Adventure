@@ -6,13 +6,14 @@ var mid_x = 0
 var redirect_angle = -PI/4
 
 func _ready():
-	mid_x = $"Polygon Shape".global_position.x + calculate_polygon_centroid().x
+	#mid_x = $"Polygon Shape".global_position.x + calculate_polygon_centroid().x
+	mid_x = $"Rectangle Shape".global_position.x
 	body_entered.connect(func(body: Node2D): enter(body))
 	body_exited.connect(func(body: Node2D): exit(body))
 
 func enter(body: Node2D):
 	if body.is_in_group("Player"):
-		if body.position.x < mid_x:
+		if body.position.x > mid_x:
 			body.move_z(1)
 		if "redirect_angles" in body:
 			body.redirect_angles.append(redirect_angle)
@@ -20,7 +21,7 @@ func enter(body: Node2D):
 
 func exit(body: Node2D):
 	if body.is_in_group("Player"):
-		if body.position.x < mid_x:
+		if body.position.x > mid_x:
 			body.move_z(-1)
 		if "redirect_angles" in body:
 			body.redirect_angles.erase(redirect_angle)

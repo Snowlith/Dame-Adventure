@@ -248,7 +248,7 @@
         "tsx/Terrain.tsx"
     ],
     "project": "dame_project.tiled-project",
-    "property.type": "int",
+    "property.type": "file",
     "recentFiles": [
         "tsx/Terrain.tsx",
         "tsx/Detail.tsx",

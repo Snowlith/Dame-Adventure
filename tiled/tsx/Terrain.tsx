@@ -217,6 +217,29 @@
    </object>
   </objectgroup>
  </tile>
+ <tile id="57">
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="0" y="0">
+    <properties>
+     <property name="physics_layer" type="int" value="1"/>
+    </properties>
+    <polygon points="0,32 0,16 16,32"/>
+   </object>
+  </objectgroup>
+ </tile>
+ <tile id="59">
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="0" y="0">
+    <properties>
+     <property name="physics_layer" type="int" value="1"/>
+    </properties>
+    <polygon points="14,16 0,0 -2,0 12,16"/>
+   </object>
+   <object id="2" x="0" y="0">
+    <polygon points="0,16 14,16 12,18 0,18"/>
+   </object>
+  </objectgroup>
+ </tile>
  <wangsets>
   <wangset name="Natural Terrain" type="mixed" tile="-1">
    <wangcolor name="Dirt" color="#ff0000" tile="-1" probability="1"/>

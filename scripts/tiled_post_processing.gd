@@ -8,13 +8,6 @@ extends Node
 # 4) Set Ordering/Y_Sort_Enabled to True for all nodes
 	# For Tilemaps, Layers/Y_Sort_Enabled must be True as well
 
-func example(base_node: Node2D):
-	var area = base_node.find_child("Area2")
-	var mat = CanvasItemMaterial.new()
-	mat.blend_mode = CanvasItemMaterial.BLEND_MODE_MUL
-	area.material = mat
-	return base_node
-
 func handle_tilemap(tm, z):
 	tm.set_layer_y_sort_enabled(0, true)
 			
