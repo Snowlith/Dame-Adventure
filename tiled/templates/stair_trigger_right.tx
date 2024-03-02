@@ -3,7 +3,8 @@
  <object type="area" width="25.125" height="33.3636">
   <properties>
    <property name="collision_layers" value="0,1"/>
-   <property name="godot_script" type="file" value="res://scripts/stair_trigger_up.gd"/>
+   <property name="godot_script" type="file" value="res://scripts/stair_trigger_right.gd"/>
   </properties>
+  <polygon points="6.27273,16.5455 20.25,16.4205 19.6705,26.5454 5.04545,41.6136"/>
  </object>
 </template>

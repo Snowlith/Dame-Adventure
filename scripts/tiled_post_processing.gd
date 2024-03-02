@@ -34,10 +34,16 @@ func handle_tilemap(tm, z):
 func handle_object_layer(tm, z):
 	for child in tm.get_children():
 		if child is CollisionObject2D:
+			# reset default layers
 			child.set_collision_layer_value(1, false)
 			child.set_collision_mask_value(1, false)
-			child.set_collision_layer_value(z+1, true)
-			child.set_collision_mask_value(z+1, true)
+			
+			# add custom layers
+			var str_layers = child.get_meta("collision_layers", "0")
+			for l in str_layers.split(','):
+				l = int(l)
+				child.set_collision_layer_value(l+z+1, true)
+				child.set_collision_mask_value(l+z+1, true)
 		if child is Sprite2D:
 			print("not supposed to have these yet")
 

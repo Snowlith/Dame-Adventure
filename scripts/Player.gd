@@ -3,6 +3,7 @@ extends CharacterBody2D
 @export var speed = 30
 @export var acceleration = 8
 @export var friction = 10
+var redirect_angles = []
 
 func _ready():
 	set_collision_layer_value(z_index+1, true)
@@ -31,6 +32,8 @@ func _physics_process(delta):
 	input_vector.x = Input.get_action_strength("ui_right") - Input.get_action_strength("ui_left")
 	input_vector.y = Input.get_action_strength("ui_down") - Input.get_action_strength("ui_up")
 	input_vector = input_vector.normalized()
+	for angle in redirect_angles:
+		input_vector = input_vector.rotated(angle)
 	
 	if input_vector != Vector2.ZERO:
 		velocity = velocity.lerp(input_vector * speed, acceleration * delta)

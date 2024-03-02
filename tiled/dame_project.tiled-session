@@ -3,15 +3,15 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "tsx/Terrain.tsx",
+    "activeFile": "tmx/dame_map.tmx",
     "automapping.whileDrawing": false,
     "expandedProjectPaths": [
-        "tx",
-        ".",
+        "rules",
         "tsx",
-        "templates",
+        ".",
         "tmx",
-        "rules"
+        "templates",
+        "tx"
     ],
     "file.lastUsedOpenFilter": "All Files (*)",
     "fileStates": {
@@ -152,15 +152,17 @@
         },
         "tmx/dame_map.tmx": {
             "expandedGroupLayers": [
-                8,
                 7,
-                19
+                19,
+                8,
+                28,
+                21
             ],
-            "scale": 2,
-            "selectedLayer": 4,
+            "scale": 1.5,
+            "selectedLayer": 14,
             "viewCenter": {
-                "x": 206,
-                "y": 143
+                "x": 243.33333333333337,
+                "y": 207.3333333333333
             }
         },
         "tsx/Cliff.tsx": {
@@ -248,9 +250,9 @@
     "project": "dame_project.tiled-project",
     "property.type": "int",
     "recentFiles": [
-        "tmx/dame_map.tmx",
-        "tsx/Detail.tsx",
         "tsx/Terrain.tsx",
+        "tsx/Detail.tsx",
+        "tmx/dame_map.tmx",
         "C:/Users/vilmt/PycharmProjects/dame_adventure 1/maps/map_1.tmx",
         "tsx/Terrain_Tall.tsx",
         "tsx/TerrainOld.tsx",

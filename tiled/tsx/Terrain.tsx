@@ -162,6 +162,12 @@
    <object id="1" x="0" y="0">
     <polygon points="0,32 16,16 16,32"/>
    </object>
+   <object id="2" x="0" y="0">
+    <properties>
+     <property name="physics_layer" type="int" value="1"/>
+    </properties>
+    <polygon points="0,32 16,16 16,32"/>
+   </object>
   </objectgroup>
  </tile>
  <tile id="36">
@@ -175,16 +181,25 @@
   </properties>
   <objectgroup draworder="index" id="2">
    <object id="1" x="0" y="0">
+    <properties>
+     <property name="physics_layer" type="int" value="1"/>
+    </properties>
     <polygon points="4,16 18,0 16,0 2,16"/>
    </object>
    <object id="2" x="0" y="0">
-    <polygon points="0,16 16,16 16,18 2,18"/>
+    <polygon points="2,16 16,16 16,18 4,18"/>
    </object>
   </objectgroup>
  </tile>
  <tile id="46" type="Stair">
   <objectgroup draworder="index" id="2">
    <object id="1" x="0" y="0">
+    <properties>
+     <property name="physics_layer" type="int" value="1"/>
+    </properties>
+    <polygon points="0,-2 0,32 2,30 2,0"/>
+   </object>
+   <object id="2" x="0" y="0">
     <polygon points="0,-2 0,32 2,30 2,0"/>
    </object>
   </objectgroup>
@@ -192,6 +207,12 @@
  <tile id="48">
   <objectgroup draworder="index" id="2">
    <object id="1" x="0" y="0">
+    <polygon points="14,0 14,30 16,32 16,-2"/>
+   </object>
+   <object id="2" x="0" y="0">
+    <properties>
+     <property name="physics_layer" type="int" value="1"/>
+    </properties>
     <polygon points="14,0 14,30 16,32 16,-2"/>
    </object>
   </objectgroup>
