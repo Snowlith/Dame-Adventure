@@ -1,5 +1,4 @@
 res://scenes/map_1.tscn
-res://scripts/stair_trigger_right.gd
-res://scripts/stair_trigger_up.gd
-res://scripts/tiled_post_processing.gd
-res://scripts/layer_trigger_left.gd
+res://addons/YATI/CustomTypes.gd
+res://scripts/Player.gd
+res://scripts/player.gd
