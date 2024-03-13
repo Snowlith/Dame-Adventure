@@ -1,8 +1,9 @@
 extends CharacterBody2D
 
-@export var speed = 30
-@export var acceleration = 8
-@export var friction = 10
+@export var speed = 85
+@export var acceleration = 10
+@export var friction = 18
+
 var animationPlayer = null
 var animationTree = null
 var animationState = null
@@ -42,13 +43,16 @@ func _physics_process(delta):
 	for angle in redirect_angles:
 		input_vector = input_vector.rotated(angle)
 	
+	if velocity.length() < 10:
+		animationState.travel("Idle")
+	else:
+		animationState.travel("Run")
+	
 	if input_vector != Vector2.ZERO:
 		animationTree.set("parameters/Idle/blend_position", input_vector)
 		animationTree.set("parameters/Run/blend_position", input_vector)
-		animationState.travel("Run")
 		velocity = velocity.lerp(input_vector * speed, acceleration * delta)
 	else:
-		animationState.travel("Idle")
 		velocity = velocity.lerp(Vector2.ZERO, friction * delta)
 	
 	move_and_slide()

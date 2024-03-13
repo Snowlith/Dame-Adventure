@@ -1,4 +1,2 @@
 res://scenes/map_1.tscn
-res://addons/YATI/CustomTypes.gd
-res://scripts/Player.gd
 res://scripts/player.gd
