@@ -14,10 +14,10 @@ TiledImport.gd::GDScript::-1::1707890383::0::1::::<>EditorPlugin<>::
 TilemapCreator.gd::GDScript::-1::1707890383::0::1::::<>RefCounted<>::
 TilesetCreator.gd::GDScript::-1::1707890383::0::1::::<>RefCounted<>::
 XmlParserCtrl.gd::GDScript::-1::1707890383::0::1::::<>RefCounted<>::
-::res://scenes/::1718972730
-dame_map.tscn::PackedScene::4706504629737505593::1718972730::0::1::::<><>::uid://c0w7flnx4jcmy::::res://tiled/tmx/dame_map.tmx<>uid://d203brynofyv::::res://scenes/player.tscn
-player.tscn::PackedScene::267872737215614425::1718972730::0::1::::<><>::res://scripts/player.gd<>uid://dck5w7ona4vvm::::res://sprites/player/dame_animation.png
-test_map.tscn::PackedScene::4331280954614560733::1718972730::0::1::::<><>::uid://bjchawd10te7c::::res://tiled/tmx/test_map.tmx<>uid://d203brynofyv::::res://scenes/player.tscn
+::res://scenes/::1718972987
+dame_map.tscn::PackedScene::4706504629737505593::1718972987::0::1::::<><>::uid://c0w7flnx4jcmy::::res://tiled/tmx/dame_map.tmx<>uid://d203brynofyv::::res://scenes/player.tscn
+player.tscn::PackedScene::267872737215614425::1718972987::0::1::::<><>::res://scripts/player.gd<>uid://dck5w7ona4vvm::::res://sprites/player/dame_animation.png
+test_map.tscn::PackedScene::4331280954614560733::1718972987::0::1::::<><>::uid://bjchawd10te7c::::res://tiled/tmx/test_map.tmx<>uid://d203brynofyv::::res://scenes/player.tscn
 ::res://scripts/::1718972730
 layer_trigger_left.gd::GDScript::-1::1718972730::0::1::::<>Area2D<>::
 layer_trigger_right.gd::GDScript::-1::1718972730::0::1::::<>Area2D<>::
@@ -37,6 +37,6 @@ pictureLightMask2_thumb.png::CompressedTexture2D::889676280328793616::1718972730
 ::res://tiled/extensions/::1707972124
 ::res://tiled/templates/::1718972730
 ::res://tiled/tmx/::1718972737
-dame_map.tmx::PackedScene::6574931240587812080::1718972730::1718972737::1::::<><>::res://scripts/layer_trigger_up.gd<>res://scripts/layer_trigger_right.gd<>res://scripts/layer_trigger_left.gd
-test_map.tmx::PackedScene::3022675212256475642::1718972730::1718972737::1::::<><>::
+dame_map.tmx::PackedScene::6574931240587812080::1718972730::1718973064::1::::<><>::res://scripts/layer_trigger_up.gd<>res://scripts/layer_trigger_right.gd<>res://scripts/layer_trigger_left.gd
+test_map.tmx::PackedScene::3022675212256475642::1718972730::1718973065::1::::<><>::
 ::res://tiled/tsx/::1718972730

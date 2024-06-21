@@ -6,4 +6,4 @@
 [node name="dame_map" instance=ExtResource("1_rmrer")]
 
 [node name="Player" parent="." index="4" instance=ExtResource("2_jtvws")]
-position = Vector2(96, 171)
+position = Vector2(279, 153)
