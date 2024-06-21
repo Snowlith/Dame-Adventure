@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <template>
- <object type="area" width="3" height="28">
+ <object type="area" width="14" height="28">
   <properties>
    <property name="collision_layers" value="0,1"/>
    <property name="godot_script" type="file" value="res://scripts/layer_trigger_right.gd"/>

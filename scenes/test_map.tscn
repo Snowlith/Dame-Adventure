@@ -1,0 +1,8 @@
+[gd_scene load_steps=3 format=3 uid="uid://b2ydtgtw7xxy0"]
+
+[ext_resource type="PackedScene" uid="uid://bjchawd10te7c" path="res://tiled/tmx/test_map.tmx" id="1_mv1ca"]
+[ext_resource type="PackedScene" uid="uid://d203brynofyv" path="res://scenes/player.tscn" id="2_rli8b"]
+
+[node name="test_map" instance=ExtResource("1_mv1ca")]
+
+[node name="Player" parent="." index="4" instance=ExtResource("2_rli8b")]

@@ -4,20 +4,21 @@ extends CharacterBody2D
 @export var acceleration = 10
 @export var friction = 18
 
-var animationPlayer = null
-var animationTree = null
-var animationState = null
+# get node references
+@onready var sprite2D = $Sprite2D
+@onready var animationPlayer = $AnimationPlayer
+@onready var animationTree = $AnimationTree
+@onready var animationState = animationTree.get("parameters/playback")
 
-var redirect_angles = []
+var z_scalars = []
 
 func _ready():
-	animationPlayer = $AnimationPlayer
-	animationTree = $AnimationTree
-	animationState = animationTree.get("parameters/playback")
 	set_collision_layer_value(z_index+1, true)
 	set_collision_mask_value(z_index+1, true)
 	
 	set_motion_mode(MOTION_MODE_FLOATING)
+	
+	set_z_scalar(1)
 	
 
 func move_z(z_mov: int):
@@ -33,15 +34,27 @@ func move_z(z_mov: int):
 	
 	set_collision_layer_value(new_layer, true)
 	set_collision_mask_value(new_layer, true)
+	
+func set_z_scalar(t: float):
+	# t=0: on layer below
+	# t=1: standing on current layer
+	sprite2D.position.y = -(z_index - 1 + t) * 16
 
+
+func _process(delta):
+	pass
+	#var sum = 0
+	#for t in z_scalars:
+		#sum += t
+	#var average = sum / z_scalars.size()
+	#
+	#sprite2D.position.y = -(z_index - 1 + average) * 16
 
 func _physics_process(delta):
 	var input_vector = Vector2.ZERO
 	input_vector.x = Input.get_action_strength("ui_right") - Input.get_action_strength("ui_left")
 	input_vector.y = Input.get_action_strength("ui_down") - Input.get_action_strength("ui_up")
 	input_vector = input_vector.normalized()
-	for angle in redirect_angles:
-		input_vector = input_vector.rotated(angle)
 	
 	if velocity.length() < 10:
 		animationState.travel("Idle")

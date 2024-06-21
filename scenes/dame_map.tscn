@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://b8b4pc3fgbosv"]
+
+[ext_resource type="PackedScene" uid="uid://c0w7flnx4jcmy" path="res://tiled/tmx/dame_map.tmx" id="1_rmrer"]
+[ext_resource type="PackedScene" uid="uid://d203brynofyv" path="res://scenes/player.tscn" id="2_jtvws"]
+
+[node name="dame_map" instance=ExtResource("1_rmrer")]
+
+[node name="Player" parent="." index="4" instance=ExtResource("2_jtvws")]
+position = Vector2(96, 171)

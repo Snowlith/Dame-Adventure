@@ -6,12 +6,11 @@
     "activeFile": "tmx/dame_map.tmx",
     "automapping.whileDrawing": false,
     "expandedProjectPaths": [
-        "rules",
-        "tsx",
         ".",
+        "tx",
+        "tsx",
         "tmx",
-        "templates",
-        "tx"
+        "rules"
     ],
     "file.lastUsedOpenFilter": "All Files (*)",
     "fileStates": {
@@ -152,17 +151,35 @@
         },
         "tmx/dame_map.tmx": {
             "expandedGroupLayers": [
-                7,
-                19,
                 8,
+                19,
+                21,
+                18,
                 28,
-                21
+                7
+            ],
+            "expandedObjectLayers": [
+                27,
+                19
             ],
             "scale": 1.5,
-            "selectedLayer": 14,
+            "selectedLayer": 0,
             "viewCenter": {
-                "x": 243.33333333333337,
-                "y": 207.3333333333333
+                "x": 345,
+                "y": 97.33333333333334
+            }
+        },
+        "tmx/test_map.tmx": {
+            "expandedGroupLayers": [
+                28,
+                21,
+                19
+            ],
+            "scale": 1.5,
+            "selectedLayer": 8,
+            "viewCenter": {
+                "x": 285.6666666666667,
+                "y": 166.66666666666669
             }
         },
         "tsx/Cliff.tsx": {
@@ -195,6 +212,10 @@
             "scaleInDock": 1,
             "scaleInEditor": 8
         },
+        "tsx/Shadow.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
         "tsx/Stairs.tsx": {
             "dynamicWrapping": true,
             "scaleInDock": 1,
@@ -203,7 +224,7 @@
         "tsx/Terrain.tsx": {
             "dynamicWrapping": false,
             "scaleInDock": 1,
-            "scaleInEditor": 4
+            "scaleInEditor": 3
         },
         "tsx/TerrainOld.tsx": {
             "dynamicWrapping": true,
@@ -234,34 +255,35 @@
         }
     },
     "last.executablePath": "C:/Users/vilmt/Tiled/dame_project/extensions/find-layer-by-id.js",
-    "last.exportedFilePath": "C:/Users/vilmt/PycharmProjects/tiled_importing_3/maps",
+    "last.exportedFilePath": "C:/Users/vilmt/Godot/Game1/Dame-Adventure",
     "last.externalTilesetPath": "C:/Users/vilmt/Tiled/dame_project/tsx",
     "last.imagePath": "C:/Users/vilmt/Godot/Game1/Dame-Adventure/sprites",
     "last.objectTemplatePath": "C:/Users/vilmt/Godot/Game1/Dame-Adventure/tiled/templates",
-    "map.lastUsedExportFilter": "Tiled map files (*.tmx *.xml)",
+    "map.lastUsedExportFilter": "Godot 4 Scene files (*.tscn)",
     "map.lastUsedFormat": "tmx",
     "map.tileHeight": 16,
     "map.tileWidth": 16,
+    "mapScene.enableWorlds": true,
     "openFiles": [
         "tmx/dame_map.tmx",
         "tsx/Detail.tsx",
         "tsx/Terrain.tsx"
     ],
     "project": "dame_project.tiled-project",
-    "property.type": "file",
+    "property.type": "bool",
     "recentFiles": [
         "tsx/Terrain.tsx",
         "tsx/Detail.tsx",
         "tmx/dame_map.tmx",
+        "tmx/test_map.tmx",
+        "tsx/Shadow.tsx",
         "C:/Users/vilmt/PycharmProjects/dame_adventure 1/maps/map_1.tmx",
         "tsx/Terrain_Tall.tsx",
         "tsx/TerrainOld.tsx",
         "rules/cliff_rules_1.tmx",
         "rules/cliff_rules_2.tmx",
         "tsx/Stairs.tsx",
-        "rules/cliff_prerules_1.tmx",
-        "tsx/Cliff.tsx",
-        "tsx/Dirt.tsx"
+        "rules/cliff_prerules_1.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {

@@ -1,2 +1,3 @@
-res://scenes/map_1.tscn
-res://scripts/player.gd
+res://scenes/player.tscn
+res://scenes/test_map.tscn
+res://scenes/dame_map.tscn
